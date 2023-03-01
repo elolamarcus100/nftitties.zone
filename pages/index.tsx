@@ -258,7 +258,7 @@ const Home: NextPage = () => {
           ><Image className={styles.logoIG} src={TC} alt="Loading..." width={350}/>
         </button>
         </div>
-        <p>(Website Coming Soon, Follow Our Socials!!!)</p>
+        <p>(Launch Coming Soon, Follow Our Socials!!!)</p>
         
 
         <p>Copyright © 2023 NFTitties</p>
