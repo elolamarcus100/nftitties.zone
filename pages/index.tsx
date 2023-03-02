@@ -48,12 +48,12 @@ const toggleModal = () => {
       <main className={styles.main}>
     <div>
       <CookieConsent
-      debug={true}
+      debug={false}
       location="top"
       style={{ 
         background: "#2B373B",
         borderRadius: "8px",
-        height: "650px",
+        height: "450px",
       }}
       buttonStyle={{ color: "white", backgroundColor:"black", fontSize: "14px", borderRadius: "8px", width: "120px", height: "30px"}}
       expires={30}
@@ -66,6 +66,7 @@ const toggleModal = () => {
       } }
 
       >
+      
       <br/>
       Our marketplace is intended for a mature audience.
       <br/>
@@ -74,14 +75,6 @@ const toggleModal = () => {
       <br/>
       <br/>
       We Use Cookies to remember your Age, please see our Privacy Policy (tap our logo) for more details.
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <br/>
       <br/>
       <br/>
