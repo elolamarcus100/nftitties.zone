@@ -53,7 +53,7 @@ We may update this privacy policy from time to time. If we make material changes
 
 Contact Us
 
-If you have any questions or concerns about this privacy policy or our use of your personal information, please contact us at nftitties.contact@gmail.com.
+If you have any questions or concerns about this privacy policy or our use of your personal information, please contact us at nftitties.contact@gmail.com. (Click on our logo to get back home!)
             </p>
         </div>
       </main>

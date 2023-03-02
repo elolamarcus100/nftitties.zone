@@ -48,7 +48,7 @@ const toggleModal = () => {
       <main className={styles.main}>
     <div>
       <CookieConsent
-      debug={false}
+      debug={true}
       location="top"
       style={{ 
         background: "#2B373B",
@@ -58,6 +58,13 @@ const toggleModal = () => {
       buttonStyle={{ color: "white", backgroundColor:"black", fontSize: "14px", borderRadius: "8px", width: "120px", height: "30px"}}
       expires={30}
       buttonText="I am 18+"
+      declineButtonText="Privacy Policy"
+      declineButtonStyle={{color: "white", backgroundColor:"black", fontSize: "14px", borderRadius: "8px", width: "120px", height: "30px"}}
+      enableDeclineButton={true}
+      onDecline={async () => {
+        location.href='./privacyPolicy';
+      } }
+
       >
       <br/>
       Our marketplace is intended for a mature audience.
