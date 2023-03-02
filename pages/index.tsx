@@ -48,7 +48,7 @@ const toggleModal = () => {
       <main className={styles.main}>
     
       <CookieConsent
-      debug={true}
+      debug={false}
       location="top"
       style={{ 
         background: "#2B373B",
