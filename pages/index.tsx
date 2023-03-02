@@ -121,6 +121,12 @@ const toggleModal = () => {
           } }
         >Marketplace Coming Phase 6</button>
 
+        <button className={styles.buttonAz}
+          onClick={async () => {
+            location.href='./mint';
+          } }
+        >Titty Ticket Details</button>
+
         <br/>
         <div className={styles.item}>
             <h1 className={styles.titlesA}>{name}</h1>
