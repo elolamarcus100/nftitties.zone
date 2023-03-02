@@ -46,7 +46,7 @@ const toggleModal = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-    
+    <div>
       <CookieConsent
       debug={false}
       location="top"
@@ -88,7 +88,7 @@ const toggleModal = () => {
       <div className={styles.nubie}>
       </div>
        </CookieConsent>
-
+</div>
 
     
         <Image src={BR} alt="Loading..." width={350}/>
