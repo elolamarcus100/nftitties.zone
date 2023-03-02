@@ -100,7 +100,16 @@
   border-color: transparent;
   margin-top: 20px;
 }
-
+.buttonAz12 {
+  width: 350px;
+  height: 30px;
+  border-radius: 8px;
+  color: white;
+  background-color: #0EBCE9;
+  font-size: 16px;
+  border-color: transparent;
+  margin-top: 20px;
+}
 .buttonAzd {
   color: transparent;
   background-color: transparent;
