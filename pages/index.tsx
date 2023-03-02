@@ -66,7 +66,7 @@ const toggleModal = () => {
       This content should only be viewed & interacted with if you are 18+. 
       <br/>
       <br/>
-      We Use Cookies to remember your Age, please see our <a href="./privacyPolicy">Privacy Policy</a> for more details.
+      We Use Cookies to remember your Age, please see our <Link href="./privacyPolicy">Privacy Policy</Link> for more details.
       <br/>
       <br/>
       <br/>
