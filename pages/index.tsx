@@ -14,7 +14,8 @@ import IG from './assets/IGICON.png';
 import DC from './assets/DiscordIC.png';
 import TC from './assets/TwitterIC.png';
 import CookieConsent from "react-cookie-consent";
-import BR1 from './assets/BR1image.png'
+import BR1 from './assets/BR1image.png';
+import Head from 'next/head'
 
 
 
@@ -45,6 +46,10 @@ const toggleModal = () => {
 }
   return (
     <div className={styles.container}>
+      <Head>
+          <title>NFTitties.Zone</title>
+          <meta name='description' content='A NFT Marketplace for High Class Nude Photography & Digital Art. 25% of ALL NFTitties profit is donated to Breast Cancer Research.'/>
+      </Head>
       <main className={styles.main}>
     <div>
       <CookieConsent
