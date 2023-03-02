@@ -22,7 +22,7 @@ const Home: NextPage = () => {
   const { contract: c1 } = useContract(
     "0xac47b2804D6fDbD5f00430Eb8d79694ce3AFACbf", "marketplace"
   );
-  const contractAddress = "0xb41B63EF3C63fF5E3C54681BDA2FB85fEB26Bdf7"
+  const contractAddress = "0x53A5de81c077a05E04C707Fa5DFab691f5602d3a"
   const type = "nft-drop"
 
   const { contract: c2 } = useContract(
