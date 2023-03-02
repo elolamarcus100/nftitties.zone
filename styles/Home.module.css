@@ -170,7 +170,24 @@
   margin: auto;
   display: block;
   justify-content: center;
+}.logoTITS{
+  margin-bottom: 2rem;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  width: 200px;
+  height: auto;
 }
+.logoTITo{
+  margin-bottom: 2rem;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  height: auto;
+  width: 300px;
+
+}
+
 .logoIG{
   margin-bottom: 2rem;
   margin: auto;
@@ -344,4 +361,8 @@
 .socialB{
   columns: auto;
   justify-content: center;
+}
+.nubie{
+  justify-content: center;
+  position: initial;
 }
