@@ -1,4 +1,3 @@
-import { useContract, useContractRead, useAddress, Web3Button } from "@thirdweb-dev/react";
 import type { NextPage } from "next";
 import Image from 'next/image';
 
@@ -43,7 +42,7 @@ We take the security of your personal information seriously and have implemented
 
 However, no system can be completely secure, and we cannot guarantee the security of your information.
 
-Children's Privacy
+Children&apos;s Privacy
 
 Our website is not intended for children under the age of 18, and we do not knowingly collect personal information from children under the age of 18.
 
