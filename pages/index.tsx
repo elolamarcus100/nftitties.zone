@@ -66,9 +66,15 @@ const toggleModal = () => {
       This content should only be viewed & interacted with if you are 18+. 
       <br/>
       <br/>
-      We Use Cookies to remember your Age, please see our <Link href="./privacyPolicy">Privacy Policy</Link> for more details.
+      We Use Cookies to remember your Age, please see our Privacy Policy (tap our logo) for more details.
       <br/>
       <br/>
+      <button className={styles.buttonAzd}
+          onClick={async () => {
+            location.href='./privacyPolicy';
+          } }
+          ><Image className={styles.logoTIT} src={mypic} alt="Loading..." width={350}/>
+        </button>
       <br/>
       <br/>
       <br/>
