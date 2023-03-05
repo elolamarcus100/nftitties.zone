@@ -48,6 +48,7 @@ const toggleModal = () => {
     <div className={styles.container}>
       <Head>
           <title>NFTitties.Zone</title>
+          <meta name="google-site-verification" content="MSwXcxjJ16tkmZsOGeJwrA-MzXd0z37-JRyta-n0N80" />
           <meta name="description" content="A NFT Marketplace for High Class Nude Photography & Digital Art. 25% of ALL NFTitties profit is donated to Breast Cancer Research."/>
           <meta name="og:title" property="og:title" content="NFTitties.Zone"/>
           <meta name="og:description" property="og:description" content="NFT Marketplace for High Class Nude Photography & Digital Art"/>
