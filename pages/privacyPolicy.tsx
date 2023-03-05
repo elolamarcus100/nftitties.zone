@@ -14,11 +14,10 @@ const Home: NextPage = () => {
       <Head>
           <title>Privacy Policy</title>
           <meta name="description" content="At nftitties.zone, we are committed to protecting the privacy of our visitors and customers. This privacy policy explains how we collect, use, and protect your personal information when you visit our website. By visiting nftitties.zone, you agree to the terms of this privacy policy."/>
-          <meta property="og:title" content="Privacy Policy"/>
-          <meta property="og:description" content="By visiting nftitties.zone, you agree to the terms of this privacy policy."/>
-          <meta property="og:url" content="nftitties.zone/privacyPolicy"/>
-          <meta property="og:type" content="website"/>
-          
+          <meta name="og:title" property="og:title" content="Privacy Policy"/>
+          <meta name="og:description"property="og:description" content="By visiting nftitties.zone, you agree to the terms of this privacy policy."/>
+          <meta name="og:url" property="og:url" content="nftitties.zone/privacyPolicy"/>
+          <meta name="og:type" property="og:type" content="website"/>          
       </Head>
       <main className={styles.main}>
       

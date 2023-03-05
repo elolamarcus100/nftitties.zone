@@ -36,10 +36,10 @@ const Home: NextPage = () => {
       <Head>
           <title>Mint</title>
           <meta name="description" content="A place for you to view the details about and mint our newest project."/>
-          <meta property="og:title" content="Mint"/>
-          <meta property="og:description" content="A Place For You To Mint Our Newest Project"/>
-          <meta property="og:url" content="nftitties.zone/mint"/>
-          <meta property="og:type" content="website"/>
+          <meta name="og:title" property="og:title" content="Mint"/>
+          <meta name="og:description" property="og:description" content="A Place For You To Mint Our Newest Project"/>
+          <meta name="og:url" property="og:url" content="nftitties.zone/mint"/>
+          <meta name="og:type" property="og:type" content="website"/>
 
       </Head>
       <main className={styles.main}>

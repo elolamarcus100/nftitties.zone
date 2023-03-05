@@ -49,10 +49,10 @@ const toggleModal = () => {
       <Head>
           <title>NFTitties.Zone</title>
           <meta name="description" content="A NFT Marketplace for High Class Nude Photography & Digital Art. 25% of ALL NFTitties profit is donated to Breast Cancer Research."/>
-          <meta property="og:title" content="NFTitties.Zone"/>
-          <meta property="og:description" content="NFT Marketplace for High Class Nude Photography & Digital Art"/>
-          <meta property="og:url" content="nftitties.zone"/>
-          <meta property="og:type" content="website"/>
+          <meta name="og:title" property="og:title" content="NFTitties.Zone"/>
+          <meta name="og:description" property="og:description" content="NFT Marketplace for High Class Nude Photography & Digital Art"/>
+          <meta name="og:url" property="og:url" content="nftitties.zone"/>
+          <meta name="og:type" property="og:type" content="website"/>
 
       </Head>
       <main className={styles.main}>

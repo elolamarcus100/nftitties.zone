@@ -34,10 +34,10 @@ const Home: NextPage = () => {
       <Head>
           <title>My NFTitties</title>
           <meta name="description" content="A place for you to view all of the NFTitties assets you own."/>
-          <meta property="og:title" content="My NFTitties"/>
-          <meta property="og:description" content="All Of The NFTitties Assets You Own"/>
-          <meta property="og:url" content="nftitties.zone/myNFTitties"/>
-          <meta property="og:type" content="website"/>
+          <meta name="og:title" property="og:title" content="My NFTitties"/>
+          <meta name="og:description" property="og:description" content="All Of The NFTitties Assets You Own"/>
+          <meta name="og:url" property="og:url" content="nftitties.zone/myNFTitties"/>
+          <meta name="og:type" property="og:type" content="website"/>
       </Head>
       <main className={styles.main}>
 
