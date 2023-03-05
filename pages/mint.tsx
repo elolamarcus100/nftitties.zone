@@ -40,7 +40,8 @@ const Home: NextPage = () => {
           <meta property="og:description" content="A Place For You To Mint Our Newest Project"/>
           <meta property="og:url" content="nftitties.zone/mint"/>
           <meta property="og:type" content="website"/>
-          <link rel="icon" href="/favcon.ico" />
+          <html lang="en"/>
+
       </Head>
       <main className={styles.main}>
 
