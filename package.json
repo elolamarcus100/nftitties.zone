@@ -15,13 +15,16 @@
     "@thirdweb-dev/react": "^3",
     "@thirdweb-dev/sdk": "^3",
     "analytics": "^0.8.1",
+    "analytics-plugin-ga": "^0.2.0",
     "ethers": "^5.7.2",
     "lottie-react": "^2.3.1",
     "next": "^13",
     "next-videos": "1.4.1",
     "react": "^18.2",
     "react-cookie-consent": "^8.0.1",
-    "react-dom": "^18.2"
+    "react-dom": "^18.2",
+    "react-ga4": "^2.0.0",
+    "web-vitals": "^3.1.1"
   },
   "devDependencies": {
     "@types/node": "^18.11.11",

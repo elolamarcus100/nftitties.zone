@@ -6,7 +6,7 @@ import mypic from './assets/NFTittiesWords.png';
 import { BigNumber } from "ethers";
 import BR from './assets/BRimage.png';
 import BR0 from './assets/BR0image.png';
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import Link from "next/link";
 import { useRouter, Router } from "next/router";
 import BLUES from './assets/TittyTicket.png';
@@ -15,9 +15,8 @@ import DC from './assets/DiscordIC.png';
 import TC from './assets/TwitterIC.png';
 import CookieConsent from "react-cookie-consent";
 import BR1 from './assets/BR1image.png';
-import Head from 'next/head'
-
-
+import Head from 'next/head';
+import ReactGA from "react-ga4";
 
 const Home: NextPage = () => {
   const { contract: c1 } = useContract(
@@ -44,6 +43,15 @@ const Home: NextPage = () => {
 const toggleModal = () => {
     setModal(!modal)
 }
+
+ReactGA.initialize("G-F1XGXCZ4CG");
+
+useEffect (() => {
+  ReactGA.send({
+    hitType: "pageView",
+    page: window.location.pathname,
+  });
+})
   return (
     <div className={styles.container}>
       <Head>
@@ -243,6 +251,7 @@ const toggleModal = () => {
       </main>
     </div>
   );
-};
+  
+  }
 
 export default Home;
