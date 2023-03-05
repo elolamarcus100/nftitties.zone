@@ -34,11 +34,11 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-          <title>NFTitties.Zone</title>
-          <meta name="description" content="A NFT Marketplace for High Class Nude Photography & Digital Art. 25% of ALL NFTitties profit is donated to Breast Cancer Research."/>
-          <meta property="og:title" content="NFTitties.Zone"/>
-          <meta property="og:description" content="NFT Marketplace for High Class Nude Photography & Digital Art"/>
-          <meta property="og:url" content="nftitties.zone"/>
+          <title>Mint</title>
+          <meta name="description" content="A place for you to view the details about and mint our newest project."/>
+          <meta property="og:title" content="Mint"/>
+          <meta property="og:description" content="A Place For You To Mint Our Newest Project"/>
+          <meta property="og:url" content="nftitties.zone/mint"/>
           <meta property="og:type" content="website"/>
           <link rel="icon" href="/favcon.ico" />
       </Head>

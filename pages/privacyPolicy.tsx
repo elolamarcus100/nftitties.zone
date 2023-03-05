@@ -12,11 +12,11 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-          <title>NFTitties.Zone</title>
-          <meta name="description" content="A NFT Marketplace for High Class Nude Photography & Digital Art. 25% of ALL NFTitties profit is donated to Breast Cancer Research."/>
-          <meta property="og:title" content="NFTitties.Zone"/>
-          <meta property="og:description" content="NFT Marketplace for High Class Nude Photography & Digital Art"/>
-          <meta property="og:url" content="nftitties.zone"/>
+          <title>Privacy Policy</title>
+          <meta name="description" content="At nftitties.zone, we are committed to protecting the privacy of our visitors and customers. This privacy policy explains how we collect, use, and protect your personal information when you visit our website. By visiting nftitties.zone, you agree to the terms of this privacy policy."/>
+          <meta property="og:title" content="Privacy Policy"/>
+          <meta property="og:description" content="By visiting nftitties.zone, you agree to the terms of this privacy policy."/>
+          <meta property="og:url" content="nftitties.zone/privacyPolicy"/>
           <meta property="og:type" content="website"/>
           <link rel="icon" href="/favcon.ico" />
       </Head>
