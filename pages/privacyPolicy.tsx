@@ -18,7 +18,6 @@ const Home: NextPage = () => {
           <meta property="og:description" content="By visiting nftitties.zone, you agree to the terms of this privacy policy."/>
           <meta property="og:url" content="nftitties.zone/privacyPolicy"/>
           <meta property="og:type" content="website"/>
-          <html lang="en"/>
       </Head>
       <main className={styles.main}>
       

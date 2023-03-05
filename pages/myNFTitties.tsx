@@ -38,8 +38,6 @@ const Home: NextPage = () => {
           <meta property="og:description" content="All Of The NFTitties Assets You Own"/>
           <meta property="og:url" content="nftitties.zone/myNFTitties"/>
           <meta property="og:type" content="website"/>
-          <html lang="en"/>
-
       </Head>
       <main className={styles.main}>
 

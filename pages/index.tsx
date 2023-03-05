@@ -53,7 +53,6 @@ const toggleModal = () => {
           <meta property="og:description" content="NFT Marketplace for High Class Nude Photography & Digital Art"/>
           <meta property="og:url" content="nftitties.zone"/>
           <meta property="og:type" content="website"/>
-          <html lang="en"/>
 
       </Head>
       <main className={styles.main}>
