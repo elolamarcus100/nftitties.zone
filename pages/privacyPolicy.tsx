@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import styles from "../styles/Home.module.css";
 import mypic from './assets/NFTittiesWords.png';
+import Head from "next/head";
 
 
 const Home: NextPage = () => {  
@@ -11,6 +12,11 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
+      <Head>
+          <title>NFTitties.Zone</title>
+          <meta httpEquiv="Content Type" content="text/html; charset=utf-8"/>
+          <meta name="description" content="A NFT Marketplace for High Class Nude Photography & Digital Art. 25% of ALL NFTitties profit is donated to Breast Cancer Research."/>
+      </Head>
         <div>
         <button className={styles.buttonAzd}
           onClick={async () => {

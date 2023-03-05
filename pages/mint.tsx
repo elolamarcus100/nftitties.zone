@@ -5,6 +5,7 @@ import Image from 'next/image';
 import mypic from './assets/NFTittiesWords.png';
 import BR0 from './assets/BR0image.png';
 import BLUES from './assets/TittyTicket.png';
+import Head from "next/head";
 
 import { useState } from "react";
 
@@ -33,7 +34,11 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-
+      <Head>
+          <title>NFTitties.Zone</title>
+          <meta httpEquiv="Content Type" content="text/html; charset=utf-8"/>
+          <meta name="description" content="A NFT Marketplace for High Class Nude Photography & Digital Art. 25% of ALL NFTitties profit is donated to Breast Cancer Research."/>
+      </Head>
 
     
         <br></br>
