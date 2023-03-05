@@ -6,7 +6,7 @@ import mypic from './assets/NFTittiesWords.png';
 import { BigNumber } from "ethers";
 import BR from './assets/BRimage.png';
 import BR0 from './assets/BR0image.png';
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import Link from "next/link";
 import { useRouter, Router } from "next/router";
 import BLUES from './assets/TittyTicket.png';
@@ -15,7 +15,8 @@ import DC from './assets/DiscordIC.png';
 import TC from './assets/TwitterIC.png';
 import CookieConsent from "react-cookie-consent";
 import BR1 from './assets/BR1image.png';
-import Head from 'next/head'
+import Head from 'next/head';
+import ReactGA from "react-ga";
 
 
 
@@ -41,12 +42,17 @@ const Home: NextPage = () => {
 
   const [modal, setModal] = useState(true);
 
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
 const toggleModal = () => {
     setModal(!modal)
 }
   return (
     <div className={styles.container}>
       <Head>
+
           <title>NFTitties.Zone</title>
           <meta name="google-site-verification" content="MSwXcxjJ16tkmZsOGeJwrA-MzXd0z37-JRyta-n0N80" />
           <meta name="description" content="A NFT Marketplace for High Class Nude Photography & Digital Art. 25% of ALL NFTitties profit is donated to Breast Cancer Research."/>
@@ -56,6 +62,7 @@ const toggleModal = () => {
           <meta name="og:type" property="og:type" content="website"/>
 
       </Head>
+      
       <main className={styles.main}>
         
     <div>

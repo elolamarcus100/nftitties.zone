@@ -11,15 +11,18 @@
     "deploy": "next build && next export && npx thirdweb@latest upload out"
   },
   "dependencies": {
+    "@analytics/google-tag-manager": "^0.5.3",
     "@thirdweb-dev/react": "^3",
     "@thirdweb-dev/sdk": "^3",
+    "analytics": "^0.8.1",
     "ethers": "^5.7.2",
     "lottie-react": "^2.3.1",
     "next": "^13",
     "next-videos": "1.4.1",
     "react": "^18.2",
     "react-cookie-consent": "^8.0.1",
-    "react-dom": "^18.2"
+    "react-dom": "^18.2",
+    "react-ga": "^3.3.1"
   },
   "devDependencies": {
     "@types/node": "^18.11.11",
