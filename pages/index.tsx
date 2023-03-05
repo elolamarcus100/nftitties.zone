@@ -6,7 +6,7 @@ import mypic from './assets/NFTittiesWords.png';
 import { BigNumber } from "ethers";
 import BR from './assets/BRimage.png';
 import BR0 from './assets/BR0image.png';
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import Link from "next/link";
 import { useRouter, Router } from "next/router";
 import BLUES from './assets/TittyTicket.png';
@@ -15,8 +15,7 @@ import DC from './assets/DiscordIC.png';
 import TC from './assets/TwitterIC.png';
 import CookieConsent from "react-cookie-consent";
 import BR1 from './assets/BR1image.png';
-import Head from 'next/head';
-import ReactGA from "react-ga";
+import Head from 'next/head'
 
 
 
@@ -41,10 +40,6 @@ const Home: NextPage = () => {
 
 
   const [modal, setModal] = useState(true);
-
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname);
-  }, []);
 
 const toggleModal = () => {
     setModal(!modal)
