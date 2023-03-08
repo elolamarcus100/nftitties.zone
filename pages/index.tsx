@@ -63,7 +63,6 @@ useEffect (() => {
           <meta name="og:description" property="og:description" content="NFT Marketplace for High Class Nude Photography & Digital Art"/>
           <meta name="og:url" property="og:url" content="nftitties.zone"/>
           <meta name="og:type" property="og:type" content="website"/>
-          <link rel="icon" href="./assets/public/favicon.ico"/>
       </Head>
       
       <main className={styles.main}>
